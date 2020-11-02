@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html  ng-app="app">
+<head>
+    
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script defer src="../app.js" ></script>
+    <script  src="../components/components.js"></script>
+</head>
+<body  ng-controller="BookController">
+
+    <header>
+        <menu-component></menu-component> 
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="center">
+                <h3 >Cadastro de Livro</h3>
+            </div>
+
+           <div class="center" >
+            <!-- <form class="col s12"> -->
+                <div class="row">
+                    <div class=" col s6">
+                        <input type="hidden" ng-model="book.id">
+                        <i class="material-icons  left">account_circle</i>
+                        <label for="icon_prefix" class="left">Titulo</label>
+                        <input id="icon_prefix" type="text" ng-model="book.title"  class="validate">
+                        
+                    </div>
+
+                    <div class=" col s6">
+                        
+                        <i class="material-icons  left">account_circle</i>
+                        <label for="icon_telephone" class="left">Subtitulo</label>
+                        <input id="icon_telephone" type="tel" ng-model="book.subtitle"  class="validate">
+                   
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class=" col s6">
+                        
+                        <i class="material-icons  left">account_circle</i>
+                        <label for="icon_telephone" class="left">Genero</label>
+                        <select  multiple ng-model="book.genre"  class="validate">
+                            <option value="" disabled>Selecione</option>
+                            <option >Drama</option>
+                            <option >Comédia</option>
+                            <option >Romantico</option>
+                            <option >Fantasia</option>
+                            <option >Ficção</option>
+                        </select>
+                        
+                        
+                    </div>
+
+                    <div class="col s6">
+                        
+                        <i class="material-icons  left">account_circle</i>
+                        <label for="icon_telephone" class="left">Editora</label>
+                        <select  ng-model="book.publisher"  class="validate">
+                            <option value="" disabled>Selecione</option>
+                            <option>Editora 1</option>
+                            <option >Editora 2</option>
+                            <option >Editora 3</option>
+                        </select>
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s6">
+                        
+                        <i class="material-icons  left">account_circle</i>
+                        <label for="icon_telephone" class="left">Autora</label>
+                        <select  ng-model="book.author"  class="validate">
+                            <option value="" disabled>Selecione</option>
+                            <option >Autora 1</option>
+                            <option >Autora 2</option>
+                            <option >Autora 3</option>
+                        </select>
+                        
+                       
+                        
+                    </div>
+
+                    <div class="col s6">
+                        
+                        <i class="material-icons left">account_circle</i>
+                        <label for="textarea1" class="left">Resumo</label>
+                        <textarea id="textarea1" ng-model="book.resume" class="materialize-textarea validate" maxlength="500" data-length="500"></textarea>
+                        
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="file-field input-field col s6">
+                        <div class="btn ">
+                          <span>Imagem</span>
+                          <input type="file" accept="image/*"  >
+                        </div>
+                        <div class="file-path-wrapper">
+                          <input class="file-path validate"   placeholder="escolha um arquivo na pasta images do projeto" ng-model="book.image" type="text">
+                        </div>
+                      </div>
+                </div>
+
+                
+            <!-- </form> -->
+            </div>
+                
+        </div>
+    </main>
+
+    <footer  class="page-footer">
+        <footer-component></footer-component>
+    </footer>
+    
+</body>
+</html>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const elems = document.querySelectorAll('select');
+        const instances = M.FormSelect.init(elems, []);
+        const textNeedCount = document.querySelectorAll(' #textarea1');
+        M.CharacterCounter.init(textNeedCount);
+    });
+
+
+
+    
+        
+
+
+</script>

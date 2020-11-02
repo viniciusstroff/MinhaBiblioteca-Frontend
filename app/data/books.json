@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title": "Anne",
+        "subtitle": "de Avolea",
+        "genre" : [
+            "Romance",
+            "Literatura infanto-juvenil",
+            "Ficção"
+        ],
+        "publisher" : "Autêntica",
+        "author": "Lucy Maud Montgomery",
+        "resume": "Marilla e Matthew Cuthbert, irmãos solteiros que vivem na fictícia comunidade de Avonlea na Ilha do Príncipe Eduardo, decidem adotar um menino para ajudá-los com a fazenda de Green Gables. Por causa de um mal-entendido, a órfã Anne Shirley, após ter passado a infância em orfanatos e casas de estranhos, é mandada para morar com eles. Matthew decide levar Anne para Green Gables de qualquer maneira, para que Marilla decida o que fazer com a menina tagarela, que durante o caminho não parava de falar sobre o quanto estava feliz por ir para seu novo lar.Anne é descrita como esperta, dramática, e muito imaginativa. Inicialmente, Marilla diz que a garota voltará ao orfanato, mas termina resolvendo que ela deve ficar. ",
+        "image": "../images/anne-de-avonled.jpg"
+    },
+
+    {
+        "id": 2,
+        "title": "Harry Potter",
+        "subtitle": "e a Pedra Filosofal",
+        "genre" : [
+            "Romance", "Literatura infantil", "Alta fantasia", "Literatura fantástica"
+        ],
+        "publisher" : "Rocco ",
+        "author": "J. K. Rowling",
+        "resume": "Harry Potter e a Pedra Filosofal é o primeiro dos sete livros da série de fantasia Harry Potter, escrita por J. K. Rowling. O livro conta a história de Harry Potter, um órfão criado pelos tios que descobre, em seu décimo primeiro aniversário, que é um bruxo.",
+        "image": "../images/harry-potter-pedra-filosofal.jpg"
+    },
+
+    {
+        "id": 3,
+        "title": "Harry Potter",
+        "subtitle": "e o prisioneiro de Azkaban",
+        "genre" : [
+            "fantasia", "ficção", "aventura", "romance de formação"
+        ],
+        "publisher" : "Rocco ",
+        "author": "J. K. Rowling",
+        "resume": "As aulas estão de volta à Hogwarts e Harry Potter não vê a hora de embarcar no expresso a vapor que o levará de volta à escola de bruxaria. Mais uma vez suas férias na rua dos Alfeneiros foi triste e solitária. Com muita ação, humor e magia, 'Harry Potter e o prisioneiro de Azkaban' traz de volta o gigante atrapalhado Rúbeo Hagrid, o sábio diretor Alvo Dumbledore, a exigente professora de transformação Minerva MacGonagall e o novo mestre Lupin, que guarda grandes surpresas para Harry.",
+        "image": "../images/harry-potter-prisioneiro-de-azkaban.jpg"
+    },
+
+    {
+        "id":4,
+        "title": "O Hobbit",
+        "subtitle": "",
+        "genre" : [
+            "Romance", "Literatura infantil", "Épico", "Alta fantasia", "Literatura fantástica"
+        ],
+        "publisher" : "HarperCollins",
+        "author": "J.R.R. Tolkien",
+        "resume": "Bilbo Bolseiro era um dos mais respeitáveis hobbits de todo o Condado até que, um dia, o mago Gandalf bate à sua porta. A partir de então, toda sua vida pacata e campestre soprando anéis de fumaça com seu belo cachimbo começa a mudar. Ele é convocado a participar de uma aventura por ninguém menos do que Thorin Escudo-de-Carvalho, um príncipe do poderoso povo dos Anãos.Esta jornada fará Bilbo, Gandalf e 13 anãos atravessarem a Terra-média, passando por inúmeros",
+        "image": "../images/o-hobbit.jpg"
+    },
+
+    {
+        "id":5,
+        "title": "Mulheres que correm com os lobos",
+        "subtitle": "",
+        "genre" : [
+            "Autoajuda"
+        ],
+        "publisher" : "Rocco",
+        "author": "Clarissa Pinkola Estés",
+        "resume": "Os lobos foram pintados com um pincel negro nos contos de fada e até hoje assustam meninas indefesas. Mas nem sempre eles foram vistos como criaturas terríveis e violentas. Na Grécia antiga e em Roma, o animal era o consorte de Artemis, a caçadora, e carinhosamente amamentava os heróis. A analista junguiana Clarissa Pinkola Estés acredita que na nossa sociedade as mulheres vêm sendo tratadas de uma forma semelhante. Ao investigar o esmagamento da natureza instintiva feminina,",
+        "image": "../images/mulheres-que-correm-com-os-lobos.jpg"
+    }
+]
